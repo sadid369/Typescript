@@ -1,11 +1,14 @@
-function square(num) {
-    if (num === void 0) { num = "sadid"; }
-    return "hello ".concat(num);
-}
-console.log(square());
-var addnumber = function () { return 5; };
-var colors = ['red', 'orange', 'yellow'];
-var upColor = colors.map(function (color) {
-    return color.toUpperCase();
-});
-console.log(upColor);
+// function printName(person:{first:string, last:string}) :void{
+//     console.log(person.first+" " + person.last);
+// }
+// function doublePoint(point:Point):Point{
+//     return point;
+// }
+// const points = doublePoint({x:2,y:3})
+// console.log(points);
+var user = [''];
+var user1 = [2];
+var user2 = [true];
+var coord = [];
+coord.push({ x: 2, y: 3 });
+console.log(coord);
